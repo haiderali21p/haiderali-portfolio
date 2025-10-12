@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global layout */
+html, body {
+  overflow-x: hidden; /*  removes left/right scroll arrows */
+  scroll-behavior: smooth; /*  smooth scrolling between sections */
+}
+
+body {
+  @apply bg-gradient-to-b from-[#0f172a] via-[#1e1b4b] to-[#020617] text-gray-100 font-sans;
+}
+
+/* Reusable glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+}
+
+/* Reset + layout helpers */
+* {
+  box-sizing: border-box;
+}
+
+section {
+  overflow-x: hidden; /* ensures animations don’t push layout sideways */
+}
+
+a {
+  @apply cursor-pointer;
+}
