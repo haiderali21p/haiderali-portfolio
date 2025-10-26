@@ -20,12 +20,12 @@ export default function Footer() {
       </motion.div>
 
       <motion.p
-        className="mt-4 text-xs text-gray-600"
+        className="mt-4 text-xs text-white"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        Designed & Developed by <span className="text-gray-300">Haider Ali</span>
+        Designed & Developed by <span className="text-white">Haider Ali</span>
       </motion.p>
     </footer>
   );

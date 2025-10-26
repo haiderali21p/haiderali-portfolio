@@ -56,7 +56,7 @@ export default function Contact() {
             name="name"
             required
             className="w-full p-3 rounded-md bg-[#1e293b]/50 border border-gray-700 text-gray-100 focus:outline-none focus:border-accent"
-            placeholder=""
+            placeholder="Write your name..."
           />
         </div>
 
@@ -67,7 +67,7 @@ export default function Contact() {
             name="email"
             required
             className="w-full p-3 rounded-md bg-[#1e293b]/50 border border-gray-700 text-gray-100 focus:outline-none focus:border-accent"
-            placeholder=""
+            placeholder="Write your email address..."
           />
         </div>
 
