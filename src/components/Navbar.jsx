@@ -73,7 +73,7 @@ export default function Navbar() {
           onClick={(e) => handleSmoothScroll(e, "#home")}
           className="text-xl md:text-2xl font-bold text-accent hover:opacity-90 transition"
         >
-          Haider Ali | Frontend Developer
+          Haider Ali | Web Developer
         </a>
 
         {/* Desktop Menu */}
